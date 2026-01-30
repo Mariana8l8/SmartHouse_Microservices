@@ -1,0 +1,6 @@
+@SmartCurtainsAPI_HostAddress = http://localhost:5220
+
+GET {{SmartCurtainsAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

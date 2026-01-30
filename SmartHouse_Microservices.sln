@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartAppMain", "SmartAppMain\SmartAppMain.csproj", "{AE95704F-2E5F-49EE-9378-977DF07BCEBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSpeakerAPI", "SmartSpeakerAPI\SmartSpeakerAPI.csproj", "{FBBC5688-3D0A-4DD5-A114-2F0EBB60A9E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartLightAPI", "SmartLightAPI\SmartLightAPI.csproj", "{203FC120-B260-4A3E-8219-BCAF8462C34F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCurtainsAPI", "SmartCurtainsAPI\SmartCurtainsAPI.csproj", "{D8A1CCB8-E548-4814-9F46-9AEBDCC13222}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Main", "Main", "{B0FA46D6-B5F4-491D-A0FD-28322F1515F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{7906C5F8-2CBC-4146-897E-F82E681910FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE95704F-2E5F-49EE-9378-977DF07BCEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE95704F-2E5F-49EE-9378-977DF07BCEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE95704F-2E5F-49EE-9378-977DF07BCEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE95704F-2E5F-49EE-9378-977DF07BCEBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBBC5688-3D0A-4DD5-A114-2F0EBB60A9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBC5688-3D0A-4DD5-A114-2F0EBB60A9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBC5688-3D0A-4DD5-A114-2F0EBB60A9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBC5688-3D0A-4DD5-A114-2F0EBB60A9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{203FC120-B260-4A3E-8219-BCAF8462C34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203FC120-B260-4A3E-8219-BCAF8462C34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203FC120-B260-4A3E-8219-BCAF8462C34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203FC120-B260-4A3E-8219-BCAF8462C34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A1CCB8-E548-4814-9F46-9AEBDCC13222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A1CCB8-E548-4814-9F46-9AEBDCC13222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A1CCB8-E548-4814-9F46-9AEBDCC13222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A1CCB8-E548-4814-9F46-9AEBDCC13222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7906C5F8-2CBC-4146-897E-F82E681910FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7906C5F8-2CBC-4146-897E-F82E681910FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7906C5F8-2CBC-4146-897E-F82E681910FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7906C5F8-2CBC-4146-897E-F82E681910FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE95704F-2E5F-49EE-9378-977DF07BCEBD} = {B0FA46D6-B5F4-491D-A0FD-28322F1515F3}
+		{FBBC5688-3D0A-4DD5-A114-2F0EBB60A9E8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{203FC120-B260-4A3E-8219-BCAF8462C34F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D8A1CCB8-E548-4814-9F46-9AEBDCC13222} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60221B4C-D9AE-4E8E-856E-F7F2291D170D}
+	EndGlobalSection
+EndGlobal

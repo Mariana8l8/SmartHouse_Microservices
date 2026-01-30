@@ -1,0 +1,6 @@
+@SmartLightAPI_HostAddress = http://localhost:5229
+
+GET {{SmartLightAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
